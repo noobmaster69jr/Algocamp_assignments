@@ -1,6 +1,5 @@
 html{
     box-sizing: border-box;
-    font-size: 1.3rem;
 }
 
 *, *::after, *::before{
@@ -8,30 +7,40 @@ html{
 }
 body{
     margin: 0;
+    font-size:1.2rem;
+    font-weight: bolder;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-header{
+.header{
     min-height: 60px;
     background-color: #f86b61;
     text-align: center;
+    padding-top:6px;
 }
 .container{
     display: flex;
+    flex:1;
 }
 .main{
     background-color: #f07744;
     width: 100%;
     text-align: center;
-    max-height: 70vh;
+    padding-top:6px;
+    
 }
 .navigation, .sidebar{
     width:100px;
     background-color: #f5976e;
-    height:70vh;
+     padding-top:6px;
+    text-align: center;
 }
 
 .footer{
     background-color: #343c54;
-    min-height: 100px;
+    height: 100px;
     text-align: center;
+     padding-top:6px;
 }

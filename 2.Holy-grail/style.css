@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+
+header{
+    min-height: 60px;
+    background-color: #f86b61;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.main{
+    background-color: #f07744;
+    width: 100%;
+    text-align: center;
+    max-height: 70vh;
+}
+.navigation, .sidebar{
+    width:100px;
+    background-color: #f5976e;
+    height:70vh;
+}
+
+.footer{
+    background-color: #343c54;
+    min-height: 100px;
+    text-align: center;
+}
